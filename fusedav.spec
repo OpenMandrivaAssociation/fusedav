@@ -26,7 +26,7 @@ It makes use of FUSE as userspace file system API and neon as WebDAV API.
 
 %build
 %configure
-make
+%make
 
 %install
 %makeinstall
