@@ -8,6 +8,9 @@ Release:	%release
 URL:		http://0pointer.de/lennart/projects/fusedav/
 License:	GPL
 Source:		http://0pointer.de/lennart/projects/fusedav/%{name}-%{version}.tar.gz
+# Patch to fix build on x86_64
+# http://ftp.debian.org/debian/pool/main/f/fusedav/fusedav_0.2-1.diff.gz
+Patch0:		ne_lfs.dpatch
 BuildRoot:	%{_tmppath}/%{name}-root
 Group:		Networking/Other
 Requires:	neon, lynx
@@ -19,6 +22,7 @@ It makes use of FUSE as userspace file system API and neon as WebDAV API.
 
 %prep
 %setup -q
+%patch0 -p1
 
 %build
 %configure
