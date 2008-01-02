@@ -11,6 +11,7 @@ Source:		http://0pointer.de/lennart/projects/fusedav/%{name}-%{version}.tar.gz
 # Patch to fix build on x86_64
 # http://ftp.debian.org/debian/pool/main/f/fusedav/fusedav_0.2-1.diff.gz
 Patch0:		ne_lfs.dpatch
+BuildRoot:	%{_tmppath}/%{name}-root
 Group:		Networking/Other
 Requires:	neon, lynx, fuse
 BuildRequires:	neon-devel >= 0.26, fuse-devel >= 2.5, lynx, attr-devel
