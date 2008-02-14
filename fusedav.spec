@@ -15,7 +15,7 @@ BuildRoot:	%{_tmppath}/%{name}-root
 Group:		Networking/Other
 Requires:	neon, lynx, fuse
 BuildRequires:	neon-devel >= 0.26, fuse-devel >= 2.5, lynx, attr-devel
-Summary:	fusedav is a Linux userspace file system driver for mounting WebDAV shares
+Summary:	Userspace file system driver for mounting WebDAV shares
 %description
 fusedav is a Linux userspace file system driver for mounting WebDAV shares.
 It makes use of FUSE as userspace file system API and neon as WebDAV API.
