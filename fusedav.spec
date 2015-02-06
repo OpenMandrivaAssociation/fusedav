@@ -1,7 +1,7 @@
 Summary:	Userspace file system driver for mounting WebDAV shares
 Name:		fusedav
 Version:	0.2
-Release:	7
+Release:	8
 Group:		Networking/Other
 License:	GPLv2
 URL:		http://0pointer.de/lennart/projects/fusedav/
