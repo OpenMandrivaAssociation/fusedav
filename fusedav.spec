@@ -4,7 +4,7 @@ Version:	0.2
 Release:	8
 Group:		Networking/Other
 License:	GPLv2
-URL:		http://0pointer.de/lennart/projects/fusedav/
+URL:		https://0pointer.de/lennart/projects/fusedav/
 Source0:	http://0pointer.de/lennart/projects/fusedav/%{name}-%{version}.tar.gz
 # Patch to fix build on x86_64
 # http://ftp.debian.org/debian/pool/main/f/fusedav/fusedav_0.2-1.diff.gz
