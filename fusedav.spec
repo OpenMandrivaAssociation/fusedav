@@ -10,6 +10,11 @@ Source0:	http://0pointer.de/lennart/projects/fusedav/%{name}-%{version}.tar.gz
 # http://ftp.debian.org/debian/pool/main/f/fusedav/fusedav_0.2-1.diff.gz
 Patch0:		ne_lfs.dpatch
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	lynx
 BuildRequires:	attr-devel
 BuildRequires:	pkgconfig(fuse)
